@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Login</title>
+</head>
+<body>
+    <main class="container">
+        <!-- O formulário envia os dados via POST para login.php -->
+        <form action="login.php" method="POST">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input name="email" placeholder="Usuário" type="email" required>
+                <i class="bx bxs-user"></i>
+            </div>
+            <div class="input-box">
+                <input name="senha" placeholder="Senha" type="password" required>
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+
+            <div class="remember-forgot">
+                <label>
+                    <input type="checkbox" name="remember">
+                    Manter login
+                </label>
+                <a href="#">Não consigo fazer login</a>
+            </div>
+
+            <button type="submit" class="login">Login</button>
+
+            <div class="register-link">
+                <p>Não tem uma conta? <a href="#">Resistre-se aqui</a></p>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
