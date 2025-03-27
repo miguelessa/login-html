@@ -9,6 +9,6 @@ No terceiro dia (hoje), desenvolvi a página em HTML5, adicionando os textos e b
 
 Bibliotecas e funçõos utilizadas:
 
-PHP 8.4.5,  PIP 25.0.1, 
-Dashboard - streamlit, pandas, plotly.express
-PHP - Função "$_POST"
+PHP 8.4.5,  PIP 25.0.1; 
+Dashboard - streamlit, pandas, plotly.express;
+PHP - Função "$_POST".
